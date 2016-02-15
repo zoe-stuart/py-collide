@@ -1,4 +1,3 @@
-
 #  Copyright (c) 2016 Jon Cooper
 #   
 #  This file is part of py-collide.
