@@ -1,3 +1,10 @@
+#  Copyright (c) 2016 Jon Cooper
+#   
+#  This file is part of py-collide.
+#  Documentation, related files, and licensing can be found at
+# 
+#      <https://github.com/joncoop/py-collide>.
+
 # Imports
 import pygame
 import intersects
