@@ -6,7 +6,7 @@ A point is defined by a list or tuple in the form
 
 A circle is defined as a list or tuple in the form
 [x, y, r] where (x, y) represents the center of the
-circle and r is it's radius.
+circle and r is its radius.
 
 A rect is defined as a list or tuple in the form
 [x, y, width, height] where (x, y) represents the
