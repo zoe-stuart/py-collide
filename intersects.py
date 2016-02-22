@@ -22,9 +22,9 @@ the rectangle.
 def point_circle(point, circle):
     a = point[0] - circle[0]
     b = point[1] - circle[1]
-    c = circle[2]
+    r = circle[2]
 
-    return a**2 + b**2 <= c**2
+    return a**2 + b**2 <= r**2
 
 
 def point_rect(point, rect):
