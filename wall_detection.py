@@ -25,20 +25,15 @@ BLACK = (0, 0, 0)
 
     
 # Make a block
-block =  [375, 275, 50, 50]
+block =  [200, 150, 50, 50]
 
 block_vx = 0
 block_vy = 0
 
 block_speed = 5
 
-
-# Select test case
-'''
-1 = stop on edge
-2 = wrap around
-'''
-case = 1
+# make a wall
+wall =  [300, 275, 200, 50]
 
 
 # Game loop
@@ -78,17 +73,10 @@ while not done:
     block[0] += block_v_x
     block[1] += block_v_y
 
-    ''' get block edges (makes collision resolution easier to read) '''
 
-    
-    if case == 1:
-        ''' if the block is moved out of the window, nudge it back on. '''
-        pass
 
-    
-    elif case == 2:
-        ''' if the block is moved completely off of the window, reposition it on the other side '''
-        pass
+
+
 
 
     
@@ -96,7 +84,7 @@ while not done:
     screen.fill(BLACK)
 
     pygame.draw.rect(screen, WHITE, block)
-
+    pygame.draw.rect(screen, RED, wall)
 
     # Update screen (Actually draw the picture in the window.)
     pygame.display.flip()
